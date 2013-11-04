@@ -1,4 +1,4 @@
-# Hint.css [v1.3.0]
+# Hint.css [v1.3.1]
 *A tooltip library in CSS for your lovely websites*
 
 `hint.css` is written as a pure CSS resource using which you can create cool tooltips for your web app. It does not rely on JavaScript and rather uses **data-* attribute**, **pseudo elements**, **content property** and **CSS3 transitions** to create the tooltips. Also it uses **BEM** naming convention particularly for the modifiers.
@@ -28,9 +28,6 @@ Get the library using one of the following ways:
 3. **CDN**
 
  [http://www.jsdelivr.com/#!hint.css](http://www.jsdelivr.com/#!hint.css)
-
-Now include the library in the *HEAD* of your page:
-
 ```html
 <link rel="stylesheet" href="hint.css"></link>
 ```
@@ -53,25 +50,6 @@ Hello Sir, <span class="hint--bottom" data-hint="Thank you!">hover me.</span>
 ```
 
 [ **Note**: The `hint` class is no more required and is deprecated. Tooltip is shown on elements which have the `data-hint` attribute instead.]
-
-Use it with other available modifiers in various combinations. Available modifiers:
-- `hint--error`
-- `hint--info`
-- `hint--warning`
-- `hint--success`
-- `hint--always`
-- `hint--rounded`
-- `hint--bounce`
-
-Check out some examples at http://kushagragour.in/lab/hint/
-
-## Who's Using This?
-- [CSS3 Playground](http://playground.webflow.com/)
-- [Inkpen](http://inkpen.in/)
-- [BitCast](https://www.bitcast.io/)
-- [Tridiv](http://tridiv.com/)
-
-Are you using **hint.css** in your awesome project too? Let us know on the [mailing list](mailto:hintcss@googlegroups.com).
 
 ## Browser Support
 **hint.css** works on all latest browsers, though the transition effect is supported only on IE10+, Chrome 26+ and FF4+ at present.
